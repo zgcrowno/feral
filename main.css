@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Garamond, "Times New Roman";
+}
+
+.center {
+  text-align: center;
+}
+
+.title {
+  font-size: 20em;
+  margin: .2em;
+}
+
+.nav-tabs > li > a {
+  color: white;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus{
+  color: black;
+  background-color: red;
+  border-color: red;
+}
+
+.nav-tabs > li > a:hover {
+  color: black;
+  background-color: maroon;
+  border-color: maroon;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid red;
+}
+
+.tabText {
+  font-size: 2.5em;
+}
