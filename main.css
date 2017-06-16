@@ -9,6 +9,21 @@ img {
   width: 14em;
 }
 
+.verticalCenter {
+  display: flex;
+  align-items: center;
+}
+
+.buffer {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.halfBuffer {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
 .rightAlign {
   text-align: right;
 }
@@ -19,7 +34,7 @@ img {
 
 .leftBorder {
   border-style: solid;
-  border-left: thin double #ff0000;
+  border-left: thick double #ff0000;
   border-top: none;
   border-right: none;
   border-bottom: none;
