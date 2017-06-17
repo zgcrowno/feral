@@ -9,6 +9,14 @@ img {
   width: 14em;
 }
 
+.btn {
+  margin-top: 1em;
+  background-color: #ff0000;
+  border-color: #ff0000;
+  color: black;
+  font-size: 1.5em;
+}
+
 .verticalCenter {
   display: flex;
   align-items: center;
