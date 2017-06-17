@@ -17,6 +17,14 @@ img {
   font-size: 1.5em;
 }
 
+.name {
+  color: white;
+}
+
+.description {
+  display: none;
+}
+
 .verticalCenter {
   display: flex;
   align-items: center;
@@ -52,9 +60,23 @@ img {
   text-align: center;
 }
 
-.title {
+#titleGroup {
+  position: relative;
+  text-align: center;
+}
+
+#title {
   font-size: 20em;
   margin: .2em;
+  margin-bottom: 0;
+  line-height: 0.7em;
+}
+
+#subTitle {
+  font-size: 2em;
+  margin-top: 0;
+  margin-bottom: 1.333em;
+  margin-left: 0.5em;
 }
 
 .nav-tabs > li > a {
