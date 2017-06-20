@@ -18,10 +18,10 @@
 
     <ul class="nav nav-tabs">
       <li class="active"><a data-toggle="tab" href="#about" class="tabText">About</a></li>
-      <li><a data-toggle="tab" href="#issues" class="tabText">Issues</a></li>
-      <li><a data-toggle="tab" href="#contributers" class="tabText">Contributers</a></li>
-      <li><a data-toggle="tab" href="#feralNews" class="tabText">Feral News</a></li>
-      <li><a data-toggle="tab" href="#submissions" class="tabText">Submissions</a></li>
+      <li><a id="issuesTab" data-toggle="tab" href="#issues" class="tabText">Issues</a></li>
+      <li><a id="contributersTab" data-toggle="tab" href="#contributers" class="tabText">Contributers</a></li>
+      <li><a id="feralNewsTab" data-toggle="tab" href="#feralNews" class="tabText">Feral News</a></li>
+      <li><a id="submissionsTab" data-toggle="tab" href="#submissions" class="tabText">Submissions</a></li>
     </ul>
 
     <div class="tab-content">
@@ -36,225 +36,180 @@
           <h3>ISSUES</h3>
           <div class="leftBorder buffer">
             <div class="container issueContainer">
-              <div class="row halfBuffer verticalCenter center">
-                <div class="col-md-4">
+              <div class="row halfBuffer center">
+                <div class="col-md-1">
+                  <p class="issueNumber">I</p>
+                </div>
+                <div class="col-md-3">
                   <img src="issueCovers/cover1.png" alt="Issue One"></img>
                   <br>
-                  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6WCKBJA556UBS" class="btn btn-default btn-Danger" role="button" data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i>">Purchase</a>
+                  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6WCKBJA556UBS" target="_blank" class="btn btn-default btn-Danger" role="button" data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i>">Purchase</a>
                 </div>
                 <div class="col-md-4">
+                  <h4 class="contentsHeader">Contents</h4>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>The Barncastle part I</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>The Barncastle part I</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Stanley Fick</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Stanley Fick</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>The Time of Night With Strange Bats</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>The Time of Night With Strange Bats</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Elaine Johnson</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Elaine Johnson</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>The Booger Dog</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>The Booger Dog</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Randolph Dietz</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Randolph Dietz</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Prickly Panther</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Prickly Panther</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Karlei Baker</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Karlei Baker</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>The Signatory</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>The Signatory</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Zachary Crownover</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Zachary Crownover</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Wolfhog</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Wolfhog</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Aaron Perkins</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Aaron Perkins</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>The Last Day of the Johnson-Reilly Feud</p>
-                    </div><div class="col-md-2">
-                      <p>by</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>The Last Day of the Johnson-Reilly Feud</i></p>
                     </div>
-                    <div class="col-md-5">
-                      <p>Andrew Dietz</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Andrew Dietz</p>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-4">
                   <p>"...and horror did prevail"</p>
-                  <p class="rightAlign">– Max Hunter, <i>The Avondale Disaster</i></p>
+                  <p class="rightAlign">– "The Avondale Disaster", <i>The Max Hunter Collection of Folk Songs</i></p>
                 </div>
               </div>
             </div>
           </div>
           <div class="leftBorder buffer">
             <div class="container issueContainer">
-              <div class="row halfBuffer verticalCenter center">
-                <div class="col-md-4">
+              <div class="row halfBuffer center">
+                <div class="col-md-1">
+                  <p class="issueNumber">II</p>
+                </div>
+                <div class="col-md-3">
                   <img src="issueCovers/cover2.png" alt="Issue Two"></img>
                   <br>
-                  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6WCKBJA556UBS" class="btn btn-default btn-Danger" role="button">Purchase</a>
+                  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6WCKBJA556UBS" target="_blank" class="btn btn-default btn-Danger" role="button">Purchase</a>
                 </div>
                 <div class="col-md-4">
+                  <h4 class="contentsHeader">Contents</h4>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Humming Ideation</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Humming Ideation</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Jessica Lowe</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Jessica Lowe</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Big Sleep in the Gravel Bar</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Big Sleep in the Gravel Bar</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Randolph Dietz</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Randolph Dietz</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Little Birds</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Little Birds</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Chelsea Childress</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Chelsea Childress</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>The Tree of Knowledge</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>The Tree of Knowledge</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Silas Misener</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Silas Misener</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Fear</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Fear</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Daniel Zender</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Daniel Zender</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>The Howl of the Hobyahs</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>The Howl of the Hobyahs</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Davey Saturn</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Davey Saturn</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Romeo & Juliet</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Romeo & Juliet</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Jason Childress</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Jason Childress</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Cockroach Bait</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Cockroach Bait</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Andrew Dietz</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Andrew Dietz</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Self-Potentiated Limitations</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Self-Potentiated Limitations</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Aaron Ivie</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Aaron Ivie</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>The Barncastle part II</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>The Barncastle part II</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Stanley Fick</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Stanley Fick</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Deer Skull Bionics</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Deer Skull Bionics</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Dillon Rudder</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Dillon Rudder</p>
                     </div>
                   </div>
                 </div>
@@ -268,132 +223,103 @@
           </div>
           <div class="leftBorder buffer">
             <div class="container issueContainer">
-              <div class="row halfBuffer verticalCenter center">
-                <div class="col-md-4">
+              <div class="row halfBuffer center">
+                <div class="col-md-1">
+                  <p class="issueNumber">III</p>
+                </div>
+                <div class="col-md-3">
                   <img src="issueCovers/cover3.png" alt="Issue Three"></img>
                   <br>
-                  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6WCKBJA556UBS" class="btn btn-default btn-Danger" role="button">Purchase</a>
+                  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6WCKBJA556UBS" target="_blank" class="btn btn-default btn-Danger" role="button">Purchase</a>
                 </div>
                 <div class="col-md-4">
+                  <h4 class="contentsHeader">Contents</h4>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Horse Skull</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Horse Skull</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Jessica Lowe</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Jessica Lowe</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Autumn is Bleeding</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Autumn is Bleeding</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Andrew Dietz</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Andrew Dietz</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>The Letter Opener</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>The Letter Opener</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Andrew Dietz</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Andrew Dietz</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Fairytales That Flit From Sight When Sight May Flit to Find</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Fairytales That Flit From Sight When Sight May Flit to Find</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Andrew Dietz</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Andrew Dietz</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Mt. Bethel Pentecostal Fire-Baptised Holiness Church</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Mt. Bethel Pentecostal Fire-Baptised Holiness Church</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Sandi Baker</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Sandi Baker</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Dead Meat</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Dead Meat</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Todd Basile</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Todd Basile</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>The Barncastle part III</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>The Barncastle part III</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Stanley Fick</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Stanley Fick</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>We Know Not What Fate Became Our Eyes</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>We Know Not What Fate Became Our Eyes</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Karlei Baker</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Karlei Baker</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Chicken Man</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Chicken Man</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Randolph Dietz</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Randolph Dietz</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Halloween Man</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Halloween Man</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Randolph Dietz</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Randolph Dietz</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Last Caress</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Last Caress</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Matthew Mitchell</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Matthew Mitchell</p>
                     </div>
                   </div>
                 </div>
@@ -406,154 +332,119 @@
           </div>
           <div class="leftBorder buffer">
             <div class="container issueContainer">
-              <div class="row halfBuffer verticalCenter center">
-                <div class="col-md-4">
+              <div class="row halfBuffer center">
+                <div class="col-md-1">
+                  <p class="issueNumber">IV</p>
+                </div>
+                <div class="col-md-3">
                   <img src="issueCovers/cover4.png" alt="Issue Four"></img>
                   <br>
-                  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6WCKBJA556UBS" class="btn btn-default btn-Danger" role="button">Purchase</a>
+                  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6WCKBJA556UBS" target="_blank" class="btn btn-default btn-Danger" role="button">Purchase</a>
                 </div>
                 <div class="col-md-4">
+                  <h4 class="contentsHeader">Contents</h4>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Breather</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Breather</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Patrick Needham</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Patrick Needham</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Nary But Corn Liquor Down Thy Putrid Throats</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Nary But Corn Liquor Down Thy Putrid Throats</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Clay Cantrell</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Clay Cantrell</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>It's In The Water</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>It's In The Water</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Brooke Austin</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Brooke Austin</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>The Great One is a Fly</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>The Great One is a Fly</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Randolph Dietz</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Randolph Dietz</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Devil's Backbone Wilderness</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Devil's Backbone Wilderness</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Bill Shultz</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Bill Shultz</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>During Old Testament Rain</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>During Old Testament Rain</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Bill Shultz</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Bill Shultz</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Pileated (After All These Years)</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Pileated (After All These Years)</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Bill Shultz</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Bill Shultz</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>The Snawfus</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>The Snawfus</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Elaine Johnson</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Elaine Johnson</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>The Worm in the Basin</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>The Worm in the Basin</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Andrew Dietz</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Andrew Dietz</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Whom Know'n Me?</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Whom Know'n Me?</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Andrew Dietz</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Andrew Dietz</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Peace in the Marshmere Mountains</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Peace in the Marshmere Mountains</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Sara Pilz</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Sara Pilz</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Back to the Slough</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Back to the Slough</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Stanley Fick</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Stanley Fick</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Taking the Devil Home</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Taking the Devil Home</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Bryan Batsell</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Bryan Batsell</p>
                     </div>
                   </div>
                 </div>
@@ -566,143 +457,111 @@
           </div>
           <div class="leftBorder buffer">
             <div class="container issueContainer">
-              <div class="row halfBuffer verticalCenter center">
-                <div class="col-md-4">
+              <div class="row halfBuffer center">
+                <div class="col-md-1">
+                  <p class="issueNumber">V</p>
+                </div>
+                <div class="col-md-3">
                   <img src="issueCovers/cover5.png" alt="Issue Five"></img>
                   <br>
-                  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6WCKBJA556UBS" class="btn btn-default btn-Danger" role="button">Purchase</a>
+                  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6WCKBJA556UBS" target="_blank" class="btn btn-default btn-Danger" role="button">Purchase</a>
                 </div>
                 <div class="col-md-4">
+                  <h4 class="contentsHeader">Contents</h4>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Beware the Hills</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Beware the Hills</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Kat Minx</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Kat Minx</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>The Giant Turtle</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>The Giant Turtle</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Randolph Dietz</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Randolph Dietz</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Carrying a Grudge</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Carrying a Grudge</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Randolph Dietz</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Randolph Dietz</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Painter's Paw</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Painter's Paw</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Karlei Baker</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Karlei Baker</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Dear</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Dear</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Lisa Erhart</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Lisa Erhart</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Rescue</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Rescue</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Midge Pickett</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Midge Pickett</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Hello Nervous Hammer</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Hello Nervous Hammer</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Chris Bently</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Chris Bently</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>How I Love You</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>How I Love You</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Chris Bently</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Chris Bently</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Death Rings</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Death Rings</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Jason Childress</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Jason Childress</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Football Season is Over</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Football Season is Over</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Andrew Dietz</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Andrew Dietz</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Summer's End Brought Childhood Shackles</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Summer's End Brought Childhood Shackles</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Andrew Dietz</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Andrew Dietz</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>The Barncastle part IV</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>The Barncastle part IV</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Stanley Fick</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Stanley Fick</p>
                     </div>
                   </div>
                 </div>
@@ -716,99 +575,79 @@
           </div>
           <div class="leftBorder buffer">
             <div class="container issueContainer">
-              <div class="row halfBuffer verticalCenter center">
-                <div class="col-md-4">
+              <div class="row halfBuffer center">
+                <div class="col-md-1">
+                  <p class="issueNumber">VI</p>
+                </div>
+                <div class="col-md-3">
                   <img src="issueCovers/cover666.png" alt="Issue 666"></img>
                   <br>
-                  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6WCKBJA556UBS" class="btn btn-default btn-Danger" role="button">Purchase</a>
+                  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6WCKBJA556UBS" target="_blank" class="btn btn-default btn-Danger" role="button">Purchase</a>
                 </div>
                 <div class="col-md-4">
+                  <h4 class="contentsHeader">Contents</h4>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>The Night the Dogs Stopped Barking</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>The Night the Dogs Stopped Barking</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Andrew Dietz</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Andrew Dietz</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Gool</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Gool</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Josh Holland</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Josh Holland</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>The Ear</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>The Ear</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Josh Reid</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Josh Reid</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Find a Nicer Way to Kill It</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Find a Nicer Way to Kill It</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Aryana Hamblett</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Aryana Hamblett</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Bone Matters</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Bone Matters</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Chris Bentley</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Chris Bentley</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>French Influence</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>French Influence</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Michael Kemp</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Michael Kemp</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>The Barncastle part V</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>The Barncastle part V</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Stanley Fick</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Stanley Fick</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>The Red Shed is Evil</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>The Red Shed is Evil</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Dae Barker</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Dae Barker</p>
                     </div>
                   </div>
                 </div>
@@ -821,110 +660,87 @@
           </div>
           <div class="leftBorder buffer">
             <div class="container issueContainer">
-              <div class="row halfBuffer verticalCenter center">
-                <div class="col-md-4">
+              <div class="row halfBuffer center">
+                <div class="col-md-1">
+                  <p class="issueNumber">VII</p>
+                </div>
+                <div class="col-md-3">
                   <img src="issueCovers/cover7.png" alt="Issue Seven"></img>
                   <br>
-                  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6WCKBJA556UBS" class="btn btn-default btn-Danger" role="button">Purchase</a>
+                  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6WCKBJA556UBS" target="_blank" class="btn btn-default btn-Danger" role="button">Purchase</a>
                 </div>
                 <div class="col-md-4">
+                  <h4 class="contentsHeader">Contents</h4>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Waitin' 'round to Die</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Waitin' 'round to Die</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Josh Holland</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Josh Holland</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Cunts' Calvary</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Cunts' Calvary</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Brie Vonyo</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Brie Vonyo</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Night Falls on the Chickenoid</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Night Falls on the Chickenoid</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Chuck Woody</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Chuck Woody</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Mile Marker 6</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Mile Marker 6</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Andrew Dietz</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Andrew Dietz</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Old Lady With Antlers</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Old Lady With Antlers</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Jessica Lowe</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Jessica Lowe</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Black Velvet</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Black Velvet</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Amelia Fisher</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Amelia Fisher</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>One With Nature</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>One With Nature</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Tiffani Martinez</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Tiffani Martinez</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>The Lonely Possum</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>The Lonely Possum</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Stanley Fick</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Stanley Fick</p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-5">
-                      <p>Ghostdolls</p>
+                    <div class="col-md-6">
+                      <p class="rightAlign"><i>Ghostdolls</i></p>
                     </div>
-                    <div class="col-md-2">
-                      <p>by</p>
-                    </div>
-                    <div class="col-md-5">
-                      <p>Jason Childress</p>
+                    <div class="col-md-6">
+                      <p class="leftAlign">Jason Childress</p>
                     </div>
                   </div>
                 </div>
@@ -972,34 +788,34 @@
                 <a href="#!" id="danielZenderName" class="name">Daniel Zender</a></br>
               </div>
               <div id="descriptions" class="col-md-8">
-                <p id="brookeAustinDescription" class="description"><strong>Brooke Austin</strong> is an immortal, having been granted this boon by the Devil as the result of a rather heated game of backgammon that took place in a Wal-Mart parking lot when she was twelve. <a href="http://www.grandmastrange.bandcamp.com">More Info</a></p>
-                <p id="karleiBakerDescription" class="description">Local changeling, <strong>Karlei Baker</strong>, was recently confirmed rare but not endangered by the Missouri Dept. of Conservation. <a href="https://www.facebook.com/Howdygallery">More Info</a></p>
+                <p id="brookeAustinDescription" class="description"><strong>Brooke Austin</strong> is an immortal, having been granted this boon by the Devil as the result of a rather heated game of backgammon that took place in a Wal-Mart parking lot when she was twelve. <a href="http://www.grandmastrange.bandcamp.com" target="_blank">More Info</a></p>
+                <p id="karleiBakerDescription" class="description">Local changeling, <strong>Karlei Baker</strong>, was recently confirmed rare but not endangered by the Missouri Dept. of Conservation. <a href="https://www.facebook.com/Howdygallery" target="_blank">More Info</a></p>
                 <p id="sandiBakerDescription" class="description"><strong>Sandi Baker</string>'s secret ambition of being Christian County's premier serpent handler was trumped by her success as an artist and art teacher. The snakes of Missouri are better off that way, and so are the rest of us.</p>
-                <p id="toddBalisleDescription" class="description">When <strong>Todd Balisle</strong> was 12-years-old, he signed a written vow that he would one day become either a Power Ranger or a member of the nWo Wolfpac. He now works as a technical writer in Springfield, MO. <a href="http://www.thebootheel.bandcamp.com">More Info</a></p>
-                <p id="daeBarkerDescription" class="description"><strong>Dai Barker</strong> is ten years old.</p>
-                <p id="kwBarrettDescription" class="description"><strong>K.W. Barrett</strong> is some real cheese. He will obey. He will Obey. He will obey. <a href="http://www.suzitrash.bandcamp.com">More Info</a></p>
-                <p id="bryanBatsellDescription" class="description"><strong>Bryan Batsell</strong> has an abiding love for art, rock'n'roll and dead things. He also enjoys roof-climbing and socks. He is the winner of two Citation(s) of merit and one Citation of Distinguished Merit during shows at the University of Central Missouri, where he earned his BFA in sculpture. <a href="https://www.facebook.com/fuzz.beater">More Info</a></p>
-                <p id="chrisBentlyDescription" class="description"><strong>Chris Bently</strong> is a writer and illustrator from Canton, Ohio. He helps to create the literary magazine INSOMNIA & OBSESSION. <a href="https://www.facebook.com/insomniaobsession">More Info</a></p>
-                <p id="clayCantrellDescription" class="description"><strong>Clay Cantrell</strong> received his MFA in poetry at the University of Memphis. In 2015, he moved to Tulsa to pursue a Ph.D. in Literature at UT. His poems have appeared or are forthcoming in <i>Sycamore Review</i>, <i>New Delta Review</i>, <i>Birdfeast</i> and <i>The Journal</i>. His full-length manuscript, <i>Hermit, Wraith</i>, was recently a finalist for the St. Lawrence Book Award. Another collection, <i>The landfill Poems</i>, will be published by Red Dirt Press in 2016. <a href="http://www.claycantrell.bandcamp.com">More Info</a></p>
-                <p id="jasonAndChelseaChildressDescription" class="description"><strong>Jason and Chelsea Childress</strong> live in Mentor, Missouri and enjoy preserving, reinterpreting murder ballads, and cleaning skeletons. <a href="http://www.clawhammer.bandcamp.com">More Info</a></p>
+                <p id="toddBalisleDescription" class="description">When <strong>Todd Balisle</strong> was 12-years-old, he signed a written vow that he would one day become either a Power Ranger or a member of the nWo Wolfpac. He now works as a technical writer in Springfield, MO. <a href="http://www.thebootheel.bandcamp.com" target="_blank">More Info</a></p>
+                <p id="daeBarkerDescription" class="description"><strong>Dae Barker</strong> is ten years old.</p>
+                <p id="kwBarrettDescription" class="description"><strong>K.W. Barrett</strong> is some real cheese. He will obey. He will Obey. He will obey. <a href="http://www.suzitrash.bandcamp.com" target="_blank">More Info</a></p>
+                <p id="bryanBatsellDescription" class="description"><strong>Bryan Batsell</strong> has an abiding love for art, rock'n'roll and dead things. He also enjoys roof-climbing and socks. He is the winner of two Citation(s) of merit and one Citation of Distinguished Merit during shows at the University of Central Missouri, where he earned his BFA in sculpture. <a href="https://www.facebook.com/fuzz.beater" target="_blank">More Info</a></p>
+                <p id="chrisBentlyDescription" class="description"><strong>Chris Bently</strong> is a writer and illustrator from Canton, Ohio. He helps to create the literary magazine INSOMNIA & OBSESSION. <a href="https://www.facebook.com/insomniaobsession" target="_blank">More Info</a></p>
+                <p id="clayCantrellDescription" class="description"><strong>Clay Cantrell</strong> received his MFA in poetry at the University of Memphis. In 2015, he moved to Tulsa to pursue a Ph.D. in Literature at UT. His poems have appeared or are forthcoming in <i>Sycamore Review</i>, <i>New Delta Review</i>, <i>Birdfeast</i> and <i>The Journal</i>. His full-length manuscript, <i>Hermit, Wraith</i>, was recently a finalist for the St. Lawrence Book Award. Another collection, <i>The landfill Poems</i>, will be published by Red Dirt Press in 2016. <a href="http://www.claycantrell.bandcamp.com" target="_blank">More Info</a></p>
+                <p id="jasonAndChelseaChildressDescription" class="description"><strong>Jason and Chelsea Childress</strong> live in Mentor, Missouri and enjoy preserving, reinterpreting murder ballads, and cleaning skeletons. <a href="http://www.clawhammer.bandcamp.com" target="_blank">More Info</a></p>
                 <p id="zacharyCrownoverDescription" class="description"><string>Zachary Crownover</strong> is a fickle courtesan to media en vogue. Unlike Silas Misener, he actually has been struck by lightning.</p>
-                <p id="randolphDietzDescription" class="description"><strong>Randolph Dietz</strong> is a freelance writer, artist and educator from Southwest Missouri, living on the farm where he raised four children and many reptiles. <a href="http://www.randolphdietz.com/Randolph_Dietz/Home.html">More Info</a></p>
+                <p id="randolphDietzDescription" class="description"><strong>Randolph Dietz</strong> is a freelance writer, artist and educator from Southwest Missouri, living on the farm where he raised four children and many reptiles. <a href="http://www.randolphdietz.com/Randolph_Dietz/Home.html" target="_blank">More Info</a></p>
                 <p id="lisaErhartDescription" class="description">It has been said that <strong>Lisa Erhart</strong>'s writing is like the first cigarette of the day -- you know that it's killing a small part of you, but you can't put it down. Her first piece was published in <i>Chicken Soup for the Soul</i>.</p>
                 <p id="ameliaFisherDescription" class="description"><strong>Amelia Fisher</strong> is a student at Missouri State University, where she practices becoming a brooding novelist who "works" from home. You can often find her hanging out with her pets or listening to true crime podcasts.</p>
                 <p id="joshHollandDescription" class="description"><strong>Josh Holland</strong>, son of the Ozark Hills, channels dark visions in ink from an apartment in Kansas City, MO. He loves his cat, and illustrates Dark Circle Comics.</p>
-                <p id="aaronIvieDescription" class="description"><strong>Aaron Ivie</strong> is an artist with a BFA in printmaking. Drawing influence from works of Dali and M.C. Escher, he channels his creative abilities into crafting salads and cheese breads in the restaurant industry. <a href="http://aivieart.com/home.html">More Info</a></p>
-                <p id="elaineJohnsonDescription" class="description"><strong>Elaine Johnson</strong>'s roots lie in Misssouri where she currently works as a freelance artist. She holds a BFA in traditional drawing and painting, and is the recipient of the Springfield Cider Days' Outstanding Local Artist of 2015 award. When she is not busy with commission work, she enjoys engaging in quality conversations with her dogs, Zeus and Stretch, and playing fetch with her boyfriend, Aaron. <a href="http://elaineinthemembrane.com/home.html">More Info</a></p>
-                <p id="jessicaLoweDescription" class="description"><strong>Jessica Lower</strong> has lived in the Ozarks for over 15 years. Working in a multitude of mediums, the majority of her works are portraits that often feature dull colors, impossible situations, and eerie atmospheres. She believes there is something alluring in odd and uncomfortable images, and so works to produce pieces that express such subtle beauty. <a href="https://www.facebook.com/ArtofJessicaLowe/">More Info</a></p>
+                <p id="aaronIvieDescription" class="description"><strong>Aaron Ivie</strong> is an artist with a BFA in printmaking. Drawing influence from works of Dali and M.C. Escher, he channels his creative abilities into crafting salads and cheese breads in the restaurant industry. <a href="http://aivieart.com/home.html" target="_blank">More Info</a></p>
+                <p id="elaineJohnsonDescription" class="description"><strong>Elaine Johnson</strong>'s roots lie in Misssouri where she currently works as a freelance artist. She holds a BFA in traditional drawing and painting, and is the recipient of the Springfield Cider Days' Outstanding Local Artist of 2015 award. When she is not busy with commission work, she enjoys engaging in quality conversations with her dogs, Zeus and Stretch, and playing fetch with her boyfriend, Aaron. <a href="http://elaineinthemembrane.com/home.html" target="_blank">More Info</a></p>
+                <p id="jessicaLoweDescription" class="description"><strong>Jessica Lower</strong> has lived in the Ozarks for over 15 years. Working in a multitude of mediums, the majority of her works are portraits that often feature dull colors, impossible situations, and eerie atmospheres. She believes there is something alluring in odd and uncomfortable images, and so works to produce pieces that express such subtle beauty. <a href="https://www.facebook.com/ArtofJessicaLowe/" target="_blank">More Info</a></p>
                 <p id="katMinxDescription" class="description"><strong>Kat Minx</strong> was reared in the woods near a cistern by a gun-slinging moonshiner.</p>
                 <p id="silasMisenerDescription" class="description"><strong>Silas Misener</strong> is a figment of your imagination. He certainly does not make his living tending bar in a town you forgot on your way to forget a larger town. He has never been attacked by a mountain lion or struck by lightning, and his hobby is unquestionably not the search for Elvis' Cadillac-Stonehenge.</p>
-                <p id="matthewMitchellDescription" class="description"><strong>Matthew Mitchell</strong> is an Ozarks native. He writes Dark Circle Comics and reviews horror films under the pseudonym, "Dirk Carcle." <a href="http://darkcirclecomics.tumblr.com/">More Info</a></p>
-                <p id="patrickNeedhamDescription" class="description"><strong>Patrick "Patsquatch" Needham</strong> was once regularly exhibited in the Kansas City Cryptozoological Museum, but was forcefully removed and released back into the wild due to his all-too-frequent verbal attacks on patrons in attempt to sway their opinions on Nihilist theory and cast iron skillets. <a href="https://www.facebook.com/ozarkvernacular">More Info</a></p>
-                <p id="midgePickettDescription" class="description"><strong>Midge Pickett</strong> was raised on half-formed duck embryos and pig blood, and loves to bathe in the juice of overripe melons until her skin turns soft and wrinkly. <a href="http://www.midgepickett.com/">More Info</a></p>
-                <p id="saraPilzDescription" class="description"><strong>Sara Pilz</strong>'s pockets contain a half-brain of rock and a drawing of a demented rabbit drawn by her eight-year-old cousin. Her paintings are inspired by her wonderment of extraterrestrials, the natural world, single-celled organisms and memories of Atlantis. <a href="https://thevioletlockets.bandcamp.com/">More Info</a></p>
-                <p id="dillonRudderDescription" class="description"><strong>Dillon Rudder</strong>, having found fame and glory in the Great Fossil Wars, has retired comfortably to rural Christian County, MO, where he raises fightin' snakes. <a href="http://www.dreckmetal.com/">More Info</a></p>
-                <p id="daveySaturnDescription" class="description"><strong>Davey Saturn</strong> is a fellow leaf in the gutter, just waiting to be hosed out. He enjoys long walks with his dog, Cider. <a href="http://www.saturnvalley.bandcamp.com">More Info</a></p>
-                <p id="billShultzDescription" class="description"><strong>Bill Shultz</strong> is a part-time farmer, part-time barista, part-time bartender, amateur poet with a Bachelor's, amateur painter with a Master's, and a full-time curious guy who lives in Springfield, MO...part of the time. <a href="http://www.billshultzart.com/">More Info</a></p>
-                <p id="danielZenderDescription" class="description"><strong>Daniel Zender</strong> is a freelance illustrator and artist working in Brooklyn, NY. He grew up in Springfield, MO. Clients include <i>The NY Times</i>, <i>New Yorker</i>, and others. <a href="http://danielzender.com/">More Info</a></p>
+                <p id="matthewMitchellDescription" class="description"><strong>Matthew Mitchell</strong> is an Ozarks native. He writes Dark Circle Comics and reviews horror films under the pseudonym, "Dirk Carcle." <a href="http://darkcirclecomics.tumblr.com/" target="_blank">More Info</a></p>
+                <p id="patrickNeedhamDescription" class="description"><strong>Patrick "Patsquatch" Needham</strong> was once regularly exhibited in the Kansas City Cryptozoological Museum, but was forcefully removed and released back into the wild due to his all-too-frequent verbal attacks on patrons in attempt to sway their opinions on Nihilist theory and cast iron skillets. <a href="https://www.facebook.com/ozarkvernacular" target="_blank">More Info</a></p>
+                <p id="midgePickettDescription" class="description"><strong>Midge Pickett</strong> was raised on half-formed duck embryos and pig blood, and loves to bathe in the juice of overripe melons until her skin turns soft and wrinkly. <a href="http://www.midgepickett.com/" target="_blank">More Info</a></p>
+                <p id="saraPilzDescription" class="description"><strong>Sara Pilz</strong>'s pockets contain a half-brain of rock and a drawing of a demented rabbit drawn by her eight-year-old cousin. Her paintings are inspired by her wonderment of extraterrestrials, the natural world, single-celled organisms and memories of Atlantis. <a href="https://thevioletlockets.bandcamp.com/" target="_blank">More Info</a></p>
+                <p id="dillonRudderDescription" class="description"><strong>Dillon Rudder</strong>, having found fame and glory in the Great Fossil Wars, has retired comfortably to rural Christian County, MO, where he raises fightin' snakes. <a href="http://www.dreckmetal.com/" target="_blank">More Info</a></p>
+                <p id="daveySaturnDescription" class="description"><strong>Davey Saturn</strong> is a fellow leaf in the gutter, just waiting to be hosed out. He enjoys long walks with his dog, Cider. <a href="http://www.saturnvalley.bandcamp.com" target="_blank">More Info</a></p>
+                <p id="billShultzDescription" class="description"><strong>Bill Shultz</strong> is a part-time farmer, part-time barista, part-time bartender, amateur poet with a Bachelor's, amateur painter with a Master's, and a full-time curious guy who lives in Springfield, MO...part of the time. <a href="http://www.billshultzart.com/" target="_blank">More Info</a></p>
+                <p id="danielZenderDescription" class="description"><strong>Daniel Zender</strong> is a freelance illustrator and artist working in Brooklyn, NY. He grew up in Springfield, MO. Clients include <i>The NY Times</i>, <i>New Yorker</i>, and others. <a href="http://danielzender.com/" target="_blank">More Info</a></p>
               </div>
             </div>
         </div>
@@ -1020,6 +836,13 @@
     </div>
   </body>
   <script type="text/javascript">
+    $('#contributersTab').on('click', function() {
+      var namesSize = $('#names a').length;
+      var random = Math.floor(Math.random() * namesSize);
+      $('#names a').eq(random).click();
+      $('#names a').eq(random).addClass('selected');
+    });
+
     $('.btn').on('click', function() {
       var $this = $(this);
       $this.button('loading');
@@ -1032,6 +855,10 @@
       var $this = $(this);
       var $id = $this.attr('id');
       var $name = $id.substring(0, $id.length - 4);
+
+      $('.name').each(function(index) {
+        $(this).removeClass('selected');
+      });
 
       $('.description').each(function(index) {
         $(this).hide();

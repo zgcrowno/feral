@@ -7,6 +7,28 @@ body {
 img {
   height: 21em;
   width: 14em;
+  padding: 0.5em;
+  border-left:  thin solid #ff0000;
+  border-right: thin solid #ff0000;
+  border-top-left-radius: 2em;
+  border-bottom-right-radius: 2em;
+}
+
+a {
+  color: #ff0000;
+}
+
+a:hover {
+  color: #ff0000;
+}
+
+a:focus {
+  color: #A80707;
+}
+
+.selected {
+  color: #A80707 !important;
+  text-decoration: underline;
 }
 
 .btn {
@@ -25,6 +47,10 @@ img {
   display: none;
 }
 
+.contentsHeader {
+  margin-top: 0em;
+}
+
 .verticalCenter {
   display: flex;
   align-items: center;
@@ -40,6 +66,10 @@ img {
   margin-bottom: 1em;
 }
 
+.leftAlign {
+  text-align: left;
+}
+
 .rightAlign {
   text-align: right;
 }
@@ -49,11 +79,11 @@ img {
 }
 
 .leftBorder {
-  border-style: solid;
-  border-left: thick double #ff0000;
+  border-left: medium solid #ff0000;
   border-top: none;
   border-right: none;
   border-bottom: none;
+  border-top-left-radius: 2em;
 }
 
 .center {
@@ -77,6 +107,11 @@ img {
   margin-top: 0;
   margin-bottom: 1.333em;
   margin-left: 0.5em;
+}
+
+.issueNumber {
+  font-size: 4em;
+  line-height: 0.7em;
 }
 
 .nav-tabs > li > a {
