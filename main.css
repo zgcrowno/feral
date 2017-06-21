@@ -1,3 +1,44 @@
+@media screen and (min-width: 1024px) {
+  .contentsHeader {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .noWidth {
+    width: 0;
+  }
+
+  .purchaseButton {
+    margin-bottom: 0.6em;
+  }
+
+  .quote {
+    margin-top: 0.6em;
+  }
+
+  .issueImgContainer {
+    border-bottom: thin solid #ff0000;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+  }
+
+  .contentsContainer {
+    border-top: thin solid #ff0000;
+    border-bottom: thin solid #ff0000;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+  }
+
+  .quoteContainer {
+    border-top: thin solid #ff0000;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+  }
+}
+
 body {
   background-color: black;
   color: white;
@@ -47,10 +88,6 @@ a:focus {
   display: none;
 }
 
-.contentsHeader {
-  margin-top: 0em;
-}
-
 .verticalCenter {
   display: flex;
   align-items: center;
@@ -76,6 +113,7 @@ a:focus {
 
 .issueContainer {
   margin-left: 1em;
+  margin-right:1em;
 }
 
 .leftBorder {
