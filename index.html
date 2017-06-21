@@ -7,8 +7,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://use.fontawesome.com/96e6d5f43f.js"></script>
-  <link rel="stylesheet" href="dist/css/bootstrap-responsive-tabs.css">
-  <script src="dist/js/jquery.bootstrap-responsive-tabs.min.js"></script>
+  <script src="https://rawgit.com/flatlogic/bootstrap-tabcollapse/master/bootstrap-tabcollapse.js"></script>
 </head>
 
 <html>
@@ -18,7 +17,7 @@
       <p id="subTitle">A JOURNAL OF OZARKIAN GOTHIC</p>
     </div>
 
-    <ul class="nav nav-tabs">
+    <ul id="navigationTabs" class="nav nav-tabs">
       <li class="active"><a data-toggle="tab" href="#about" class="tabText">About</a></li>
       <li><a id="issuesTab" data-toggle="tab" href="#issues" class="tabText">Issues</a></li>
       <li><a id="contributersTab" data-toggle="tab" href="#contributers" class="tabText">Contributers</a></li>
@@ -838,6 +837,8 @@
     </div>
   </body>
   <script type="text/javascript">
+    $('#navigationTabs').tabCollapse();
+
     $('#contributersTab').on('click', function() {
       var namesSize = $('#names a').length;
       var random = Math.floor(Math.random() * namesSize);
