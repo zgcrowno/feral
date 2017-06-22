@@ -37,6 +37,19 @@
     border-top-left-radius: 2em;
     border-top-right-radius: 2em;
   }
+
+  #titleGroup {
+    font-size: 35%;
+  }
+
+  #names {
+    padding-bottom: 1em !important;
+  }
+
+  #descriptions {
+    border-top: thin solid #ff0000;
+    padding-top: 1em;
+  }
 }
 
 body {
@@ -158,16 +171,43 @@ a:focus {
 
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
-.nav-tabs > li.active > a:focus{
-  color: black;
-  background-color: red;
-  border-color: red;
+.nav-tabs > li.active > a:focus,
+.panel-title > a,
+.panel-title > a:hover,
+.panel-title > a:focus,
+.panel-heading {
+  color: black !important;
+  background-color: red !important;
+  border-color: red !important;
+}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+  border-color: #ff0000 !important;
 }
 
 .nav-tabs > li > a:hover {
   color: black;
   background-color: maroon;
   border-color: maroon;
+}
+
+.panel-title > a:hover {
+  text-decoration: none;
+  color: white !important;
+}
+
+.panel-title > a:focus {
+  text-decoration: none;
+}
+
+.panel {
+  border-color: red;
+  background-color: red;
+}
+
+.panel-collapse {
+  color: white;
+  background-color: black;
 }
 
 .nav-tabs {
