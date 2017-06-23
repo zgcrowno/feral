@@ -4,7 +4,7 @@
   }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 922px) {
   .noWidth {
     width: 0;
   }
@@ -38,8 +38,12 @@
     border-top-right-radius: 2em;
   }
 
+  .issueNumber {
+    font-size: 1.2em !important;
+  }
+
   #titleGroup {
-    font-size: 35%;
+    font-size: 45%;
   }
 
   #names {

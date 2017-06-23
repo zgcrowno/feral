@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <head>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>feral</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -167,7 +168,7 @@
                   </div>
                   <div class="row">
                     <div class="col-xs-6">
-                      <p class="rightAlign"><i>The Howl of the Hobyahs</i></p>
+                      <p class="rightAlign"><i>The Howl of the Hobyhas</i></p>
                     </div>
                     <div class="col-xs-6">
                       <p class="leftAlign">Davey Saturn</p>
@@ -806,7 +807,7 @@
                 <p id="joshHollandDescription" class="description"><strong>Josh Holland</strong>, son of the Ozark Hills, channels dark visions in ink from an apartment in Kansas City, MO. He loves his cat, and illustrates Dark Circle Comics.</p>
                 <p id="aaronIvieDescription" class="description"><strong>Aaron Ivie</strong> is an artist with a BFA in printmaking. Drawing influence from works of Dali and M.C. Escher, he channels his creative abilities into crafting salads and cheese breads in the restaurant industry. <a href="http://aivieart.com/home.html" target="_blank">More Info</a></p>
                 <p id="elaineJohnsonDescription" class="description"><strong>Elaine Johnson</strong>'s roots lie in Missouri where she currently works as a freelance artist. She holds a BFA in traditional drawing and painting, and is the recipient of the Springfield Cider Days' Outstanding Local Artist of 2015 award. When she is not busy with commission work, she enjoys engaging in quality conversations with her dogs, Zeus and Stretch, and playing fetch with her boyfriend, Aaron. <a href="http://elaineinthemembrane.com/home.html" target="_blank">More Info</a></p>
-                <p id="jessicaLoweDescription" class="description"><strong>Jessica Lower</strong> has lived in the Ozarks for over 15 years. Working in a multitude of mediums, the majority of her works are portraits that often feature dull colors, impossible situations, and eerie atmospheres. She believes there is something alluring in odd and uncomfortable images, and so works to produce pieces that express such subtle beauty. <a href="https://www.facebook.com/ArtofJessicaLowe/" target="_blank">More Info</a></p>
+                <p id="jessicaLoweDescription" class="description"><strong>Jessica Lowe</strong> has lived in the Ozarks for over 15 years. Working in a multitude of mediums, the majority of her works are portraits that often feature dull colors, impossible situations, and eerie atmospheres. She believes there is something alluring in odd and uncomfortable images, and so works to produce pieces that express such subtle beauty. <a href="https://www.facebook.com/ArtofJessicaLowe/" target="_blank">More Info</a></p>
                 <p id="katMinxDescription" class="description"><strong>Kat Minx</strong> was reared in the woods near a cistern by a gun-slinging moonshiner.</p>
                 <p id="silasMisenerDescription" class="description"><strong>Silas Misener</strong> is a figment of your imagination. He certainly does not make his living tending bar in a town you forgot on your way to forget a larger town. He has never been attacked by a mountain lion or struck by lightning, and his hobby is unquestionably not the search for Elvis' Cadillac-Stonehenge.</p>
                 <p id="matthewMitchellDescription" class="description"><strong>Matthew Mitchell</strong> is an Ozarks native. He writes Dark Circle Comics and reviews horror films under the pseudonym, "Dirk Carcle." <a href="http://darkcirclecomics.tumblr.com/" target="_blank">More Info</a></p>
@@ -837,7 +838,10 @@
     </div>
   </body>
   <script type="text/javascript">
-    $('#navigationTabs').tabCollapse();
+    $('#navigationTabs').tabCollapse({
+      tabsClass: 'hidden-sm hidden-xs',
+      accordionClass: 'visible-sm visible-xs'
+    });
 
     $('#contributersTab').on('click', function() {
       var namesSize = $('#names a').length;
