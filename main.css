@@ -13,7 +13,11 @@
     margin-bottom: 0.6em;
   }
 
-  .quote {
+  /*.quote {
+    margin-top: 0.6em;
+  }*/
+
+  .teaser {
     margin-top: 0.6em;
   }
 
@@ -32,7 +36,13 @@
     border-bottom-right-radius: 2em;
   }
 
-  .quoteContainer {
+  /*.quoteContainer {
+    border-top: thin solid #ff0000;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+  }*/
+
+  .teaserContainer {
     border-top: thin solid #ff0000;
     border-top-left-radius: 2em;
     border-top-right-radius: 2em;
