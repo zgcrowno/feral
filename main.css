@@ -79,7 +79,7 @@
 body {
   background-color: black;
   color: white;
-  font-family: Garamond, "Baskerville", sans-serif, "Times New Roman";
+  font-family: Garamond, "Baskerville", monospace, "Times New Roman";
 }
 
 img {
