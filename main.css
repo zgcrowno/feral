@@ -36,12 +36,6 @@
     border-bottom-right-radius: 2em;
   }
 
-  /*.quoteContainer {
-    border-top: thin solid #ff0000;
-    border-top-left-radius: 2em;
-    border-top-right-radius: 2em;
-  }*/
-
   .teaserContainer {
     border-top: thin solid #ff0000;
     border-top-left-radius: 2em;
@@ -163,6 +157,18 @@ a:focus {
 .issueContainer {
   margin-left: 1em;
   margin-right:1em;
+}
+
+.contentsContainer {
+  font-size: 1.4em;
+}
+
+.contentsHeader {
+  font-size: 1.8em;
+}
+
+.teaserContainer {
+  font-size: 1.2em;
 }
 
 .leftBorder {
